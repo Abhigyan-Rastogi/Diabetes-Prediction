@@ -1,0 +1,8 @@
+% Comment lmao
+% Khushi weds Abhigyan <3
+@RELATION guests
+
+@ATTRIBUTE age NUMERICAL
+@ATTRIBUTE food NUMERICAL
+@ATTRIBUTE seats NUMERICAL
+@ATTRIBUTE name

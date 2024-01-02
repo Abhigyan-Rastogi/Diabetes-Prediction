@@ -1,0 +1,68 @@
+:root {
+    --anchor: white;
+    /* rgb(20, 20, 20); */
+    --mainTitle: white;
+     /* rgb(50, 50, 80); */
+    --navCol: rgb(80, 150, 180);
+}
+body {
+    margin:0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#header h1{
+    color: var(--mainTitle);
+    background-image: linear-gradient(to right, rgb(30, 180, 190), rgb(100, 80, 150));
+    padding: 20px;
+    margin: 0px 0px 5px 0px;
+}
+nav a, nav a:active {
+    color: var(--anchor);
+    text-decoration: none;
+    padding:0px 10px 0px 10px;
+}
+#header nav, #footer nav, #DiabetesPrediction nav {
+    text-align:center;
+    background-color: var(--navCol);
+}
+#main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vmin;
+    background-image:url("/images/doctor-image.png");
+    background-size: cover;
+}
+#main div {
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+    background-image: radial-gradient();
+    /* padding: 0px 20px 0px 20px; */
+}
+#main p {
+    width:50%;
+    color:white;
+}
+#main a, #main a:active {
+    margin:20px;
+    padding:40px;
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(30, 180, 190);
+    text-decoration: none;
+}
+#DiabetesPrediction {
+    display:grid;
+    background-color: white;
+    gap:10px;
+    padding:20px;
+}
+#DiabetesPrediction form {
+    display:grid;
+    grid-template-columns: auto 4em;
+    gap:10px;
+    text-align:left;
+}
+#DiabetesPrediction p, #DiabetesPrediction h2 {
+    color: black;
+}

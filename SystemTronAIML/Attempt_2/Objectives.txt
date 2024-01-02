@@ -1,0 +1,19 @@
+Things to do!
+1. Read data from csv file, make a datastruture                                                         DONE> 19:36 26/12/23
+2. implement efficient matrix multiplication for neural network                                         DONE> ??:?? 26/12/23
+3. implement a class which handles Input layer, Middle layer, Output layer                              DONE> ??:?? 26/12/23
+4. implement a datastructure that can store the weights/biases of layers for reuse at a later time      
+5. implement reusability without having to re train
+6. make a webpage for the project, UI, login, submission, server handling, etc.
+7. Time yourself
+
+Big ass project to implement neural network by myself, saved for later (research and development)
+
+using existing neuralNetwork libraries
+
+1.Layer Architecture
+2.Bias and weight update
+
+Getting somewhere with weka!
+
+Implemented Diabetes predictions with WEKA!                                                             DONE> 28/12/2023 21:11
